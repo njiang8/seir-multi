@@ -39,6 +39,7 @@ work_nw = nx.read_adjlist('data/input/Western_NY/population/wny_work_nw.csv', de
 #print('Work reading ended ({:.1f} secs)'.format(timeit.default_timer() - start_time))
 print('---Network reading ended ({:.1f} secs)'.format(timeit.default_timer() - start_time))
 
+#Set Parameters
 DAYS  = 150 #set the overall simulation steps: simulation steps = DAYS * 3
 INTRO = False # if introduce another thread make the model simulate two thread of disease
 TRACK = False # if track the seir location
