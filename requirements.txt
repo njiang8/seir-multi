@@ -17,4 +17,5 @@ autopep8
 tqdm
 momepy
 networkx
+loguru
 black[jupyter]
