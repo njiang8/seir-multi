@@ -11,7 +11,8 @@ This repository provides a complete, reproducible workflow for:
 The framework is optimized for large-scale populations and provides traceable, structured output results for further academic or applied research.
 
 ## 📁 Project Directory Structure
- 
+
+ ```
 large_scale_seir/
 ├── .venv/                # Virtual environment directory
 ├── data/                # Input data (e.g., population, disease parameters)
@@ -30,3 +31,4 @@ large_scale_seir/
 ├── data.zip             # Compressed input data
 ├── README.md            # This file
 └── requirements.txt     # Python dependencies
+```
