@@ -14,9 +14,6 @@ The framework is optimized for large-scale populations and provides traceable, s
 
  ```
 large_scale_seir/
-├── .venv/                # Virtual environment directory
-├── data/                # Input data (e.g., population, disease parameters)
-├── results/             # Output simulation results
 ├── src/                 # Core source code
 │   ├── agent.py         # Defines individual agent behavior and states
 │   ├── create_social_network.py  # Builds the social contact network
