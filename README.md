@@ -26,8 +26,6 @@ The framework is optimized for large-scale populations and provides traceable, s
 
  ```
 large_scale_seir/
-├── .venv/                # Virtual environment directory
-├── data/                # Input data (e.g., population, disease parameters)
 ├── results/             # Output simulation results
 ├── src/                 # Core source code
 │   ├── agent.py         # Defines individual agent behavior and states
@@ -40,7 +38,6 @@ large_scale_seir/
 ├── 2-seir-wny-multi-disease.py # Multi-disease co-circulation simulation
 ├── 3-validation-multi-run.py # Validation with repeated simulation runs
 ├── 4-simulation_results_analysis.ipynb # Jupyter notebook for result analysis
-├── data.zip             # Compressed input data
 ├── README.md            # This file
 └── requirements.txt     # Python dependencies
 ```
